@@ -1,1 +1,29 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>cocktails on CompSoc Cookbook</title><link>/cuisines/cocktails/</link><description>Recent content in cocktails on CompSoc Cookbook</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sat, 03 Jul 2021 08:56:21 +0900</lastBuildDate><atom:link href="/cuisines/cocktails/index.xml" rel="self" type="application/rss+xml"/><item><title>Dark &amp;amp; Dirty Mojito</title><link>/recipes/dark_and_dirty_mojito/</link><pubDate>Sat, 03 Jul 2021 08:56:21 +0900</pubDate><guid>/recipes/dark_and_dirty_mojito/</guid><description>Dark &amp;amp; Dirty Mojito Ingredients 2 parts spiced rum 1 part ginger beer 2 part soda 2 part sugar water 1 part lime juice 5-10 mint leaves Ice Method Add ice and mint to the glass and bruise mint Add all liquids except lime juice and stir Squeeze in lime juice, add the lime and stir Pack with ice if desired and serve</description></item><item><title>Textbook (Wikipedia inspired) Piña Colada</title><link>/recipes/wikipedia_pina_colada/</link><pubDate>Sat, 03 Jul 2021 08:56:21 +0900</pubDate><guid>/recipes/wikipedia_pina_colada/</guid><description>Textbook (Wikipedia inspired) Piña Colada Ingredients 1 part white rum 1 part (Alpro) coconut drink 3 parts pineapple juice Ice Method Add ice to shaker Pour in all liquids Shake for an arbitrary amount of time Profit!</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>cocktails on CompSoc Cookbook</title>
+    <link>/cuisines/cocktails/</link>
+    <description>Recent content in cocktails on CompSoc Cookbook</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 03 Jul 2021 10:13:17 +0900</lastBuildDate><atom:link href="/cuisines/cocktails/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Dark &amp; Dirty Mojito</title>
+      <link>/recipes/dark_and_dirty_mojito/</link>
+      <pubDate>Sat, 03 Jul 2021 10:13:17 +0900</pubDate>
+      
+      <guid>/recipes/dark_and_dirty_mojito/</guid>
+      <description>Dark &amp;amp; Dirty Mojito Ingredients  2 parts spiced rum 1 part ginger beer 2 part soda 2 part sugar water 1 part lime juice 5-10 mint leaves Ice  Method  Add ice and mint to the glass and bruise mint Add all liquids except lime juice and stir Squeeze in lime juice, add the lime and stir Pack with ice if desired and serve  </description>
+    </item>
+    
+    <item>
+      <title>Textbook (Wikipedia inspired) Piña Colada</title>
+      <link>/recipes/wikipedia_pina_colada/</link>
+      <pubDate>Sat, 03 Jul 2021 10:13:17 +0900</pubDate>
+      
+      <guid>/recipes/wikipedia_pina_colada/</guid>
+      <description>Textbook (Wikipedia inspired) Piña Colada Ingredients  1 part white rum 1 part (Alpro) coconut drink 3 parts pineapple juice Ice  Method  Add ice to shaker Pour in all liquids Shake for an arbitrary amount of time Profit!  </description>
+    </item>
+    
+  </channel>
+</rss>
