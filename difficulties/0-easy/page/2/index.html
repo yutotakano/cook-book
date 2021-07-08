@@ -9,54 +9,118 @@
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Lato&family=Playfair+Display&display=swap" rel="stylesheet">
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Lato&family=Playfair+Display&display=swap" onload="this.onload=null;this.rel='stylesheet'">
 
 
 
-<link rel="stylesheet" href="../../../../scss/main.min.882092aa1dbc8c9eda58a49b5152c4dbfd40c3da26c58cd4604c421065b0e5e6.css">
+<link rel="stylesheet" href="../../../../scss/main.min.ed78d43de21cba983b55b47a6264e8168b3d8aaaf76155c92f910012a1164044.css">
 
     <title>Browsing all 0-easy dishes... | CompSoc Cookbook</title>
   </head>
   <body>
     <div class="container">
-      <main>
-        <h1>0-easy</h1>
-        <span>List of dishes that are supposedly ranked in difficulty as 0-easy.</span>
-        <hr>
-        <ol class="listing">
-          
+      <header class="mb-3">
+  <nav class="navbar navbar-expand-lg navbar-light">
+    <div class="container justify-content-center justify-content-sm-between">
+      <div class="navbar-toggler-wrapper d-lg-none">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
 
+      <div class="collapse navbar-collapse d-lg-flex" id="navbarSupportedContent">
+        <a class="navbar-brand flex-fill" href="../../../../">
           
-            <a href="../../../../recipes/chorizo_linguine/">
-              <li class="listing_item" role="article">
-                <h2>Chorizo Linguine</h2>
-                <span class="pubdate">written: <time>16 January, 2021</time></span>
-              </li>
+          <img
+            src="../../../../img/cookbook-horizontal.svg"
+            alt="CompSoc Cookbook Logo"
+            width="320"
+            height="50"
+            class="pl-1 pl-sm-0">
+        </a>
+
+        <ul class="navbar-nav mr-auto">
+          
+          
+          <li class="nav-item">
+            <a
+              class="nav-link "
+              aria-current="page"
+              href="../../../../recipes/">
+              All recipes
             </a>
+          </li>
           
-            <a href="../../../../recipes/chickpea_spinach_and_egg_curry/">
-              <li class="listing_item" role="article">
-                <h2>Chickpea, spinach and egg curry</h2>
-                <span class="pubdate">written: <time>16 January, 2021</time></span>
-              </li>
+          <li class="nav-item">
+            <a
+              class="nav-link "
+              aria-current="page"
+              href="https://github.com/compsoc-edinburgh/cook-book">
+              Github
             </a>
+          </li>
           
-            <a href="../../../../recipes/chicken-satay/">
-              <li class="listing_item" role="article">
-                <h2>Chicken Satay</h2>
-                <span class="pubdate">written: <time>16 January, 2021</time></span>
-              </li>
-            </a>
-          
-            <a href="../../../../recipes/spanish-eggs/">
-              <li class="listing_item" role="article">
-                <h2>&#34;Spanish&#34; Eggs</h2>
-                <span class="pubdate">written: <time>16 January, 2021</time></span>
-              </li>
-            </a>
-          
-        </ol>
+        </ul>
         
+        <form class="d-flex" method="GET" action="../../../../recipes">
+          <input
+            class="form-control me-2"
+            name="q"
+            type="search"
+            placeholder="Search recipes"
+            aria-label="Search">
+          <button class="btn bg-secondary btn-outline-success" type="submit">
+            Search
+          </button>
+        </form>
+        
+      </div>
+    </div>
+  </nav>
+  <hr>
+</header>
+
+      <main>
+        <h1 class="display-2 text-center">0-Easy</h1>
+        <h4 class="text-center mb-5">List of recipes ranked as 0-easy.</h4>
+        <ol class="recipe-listing row row-cols-2 row-cols-lg-4 g-4">
+  
+
+  
+    <li class="recipe-listing-item col">
+      <a href="../../../../recipes/slow-cooker-honey-sriracha-chicken/" role="article">
+        <div class="card h-100">
+          
+          <div class="card-body">
+            <span class="meta">main_courses / 0-easy</span>
+            <h4 class="display-5 mt-lg-3">Slow Cooker Honey Sriracha Chicken</h2>
+          </div>
+        </div>
+      </a>
+    </li>
+  
+    <li class="recipe-listing-item col">
+      <a href="../../../../recipes/turkish-eggs/" role="article">
+        <div class="card h-100">
+          
+          <div class="card-body">
+            <span class="meta">main_courses / 0-easy</span>
+            <h4 class="display-5 mt-lg-3">Turkish Eggs / Shakshuka</h2>
+          </div>
+        </div>
+      </a>
+    </li>
+  
+</ol>
+<div class="d-flex justify-content-center mt-5">
+  
     <ul class="pagination pagination-default">
       <li class="page-item">
         <a href="../../../../difficulties/0-easy/" aria-label="First" class="page-link" role="button"><span aria-hidden="true">&laquo;&laquo;</span></a>
@@ -71,12 +135,14 @@
         <a href="#" aria-current="page" aria-label="Page 2" class="page-link" role="button">2</a>
       </li>
       <li class="page-item disabled">
-        <a href="#" aria-disabled="true" aria-label="Next" class="page-link" role="button"><span aria-hidden="true">&raquo;</span></a>
+        <a href="#" aria-disabled="true" aria-label="Next" class="page-link" role="button" tabindex="-1"><span aria-hidden="true">&raquo;</span></a>
       </li>
       <li class="page-item disabled">
-        <a href="#" aria-disabled="true" aria-label="Last" class="page-link" role="button"><span aria-hidden="true">&raquo;&raquo;</span></a>
+        <a href="#" aria-disabled="true" aria-label="Last" class="page-link" role="button" tabindex="-1"><span aria-hidden="true">&raquo;&raquo;</span></a>
       </li>
     </ul>
+</div>
+
       </main>
       <footer>
   <hr>

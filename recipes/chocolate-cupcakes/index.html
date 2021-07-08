@@ -10,11 +10,11 @@
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Lato&family=Playfair+Display&display=swap" rel="stylesheet">
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Lato&family=Playfair+Display&display=swap" onload="this.onload=null;this.rel='stylesheet'">
 
 
 
-<link rel="stylesheet" href="../../scss/main.min.882092aa1dbc8c9eda58a49b5152c4dbfd40c3da26c58cd4604c421065b0e5e6.css">
+<link rel="stylesheet" href="../../scss/main.min.ed78d43de21cba983b55b47a6264e8168b3d8aaaf76155c92f910012a1164044.css">
 
     <title>Chocolate cupcakes | CompSoc Cookbook</title>
     <meta property="og:title" content="Chocolate cupcakes" />
@@ -24,6 +24,74 @@
   </head>
   <body>
     <div class="container">
+      <header class="mb-3">
+  <nav class="navbar navbar-expand-lg navbar-light">
+    <div class="container justify-content-center justify-content-sm-between">
+      <div class="navbar-toggler-wrapper d-lg-none">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
+
+      <div class="collapse navbar-collapse d-lg-flex" id="navbarSupportedContent">
+        <a class="navbar-brand flex-fill" href="../../">
+          
+          <img
+            src="../../img/cookbook-horizontal.svg"
+            alt="CompSoc Cookbook Logo"
+            width="320"
+            height="50"
+            class="pl-1 pl-sm-0">
+        </a>
+
+        <ul class="navbar-nav mr-auto">
+          
+          
+          <li class="nav-item">
+            <a
+              class="nav-link "
+              aria-current="page"
+              href="../../recipes/">
+              All recipes
+            </a>
+          </li>
+          
+          <li class="nav-item">
+            <a
+              class="nav-link "
+              aria-current="page"
+              href="https://github.com/compsoc-edinburgh/cook-book">
+              Github
+            </a>
+          </li>
+          
+        </ul>
+        
+        <form class="d-flex" method="GET" action="../../recipes">
+          <input
+            class="form-control me-2"
+            name="q"
+            type="search"
+            placeholder="Search recipes"
+            aria-label="Search">
+          <button class="btn bg-secondary btn-outline-success" type="submit">
+            Search
+          </button>
+        </form>
+        
+      </div>
+    </div>
+  </nav>
+  <hr>
+</header>
+
       <main>
         <article class="recipe">
           
@@ -34,10 +102,16 @@
               
               
             </div>
-            <h1 class="display-2 mt-3 mb-4 text-center">Chocolate cupcakes</h1>
-            <div class="recipe-properties">
-              <time class="recipe-property" datetime="2021-02-18 17:30:55 &#43;0000 UTC">18 February, 2021</time>
-              <span class="recipe-property"><b>Skill:</b> 1-medium</span>
+            <h1 class="display-2 mb-4 text-center">Chocolate cupcakes</h1>
+            <div class="recipe-properties d-flex">
+              <div class="recipe-property">
+                <b>Published</b><br>
+                <time datetime="2021-02-18 17:30:55 &#43;0000 UTC">18 Feb, 2021</time>
+              </div>
+              <div class="recipe-property">
+                <b>Difficulty</b><br>
+                1-medium
+              </div>
               
             </div>
           </div>
