@@ -14,7 +14,7 @@
 
 
 
-<link rel="stylesheet" href="./scss/main.min.9281a7ce9eaacd9f200f085923f522758f5ae43cfd16a726a0adac678765cf9a.css">
+<link rel="stylesheet" href="./scss/main.min.9bf80a42af22f3656abfa055a7429e13b8327ea6239e67de828cf5d5f2c3afe5.css">
 
     <title>CompSoc Cookbook</title>
   </head>
@@ -37,7 +37,7 @@
       </div>
 
       <div class="collapse navbar-collapse d-lg-flex" id="navbarSupportedContent">
-        <a class="navbar-brand flex-fill" href="./">
+        <a class="navbar-brand flex-fill" href="./" title="Back to Home">
           
           <img
             src="./img/cookbook-horizontal.svg"
@@ -77,7 +77,7 @@
             type="search"
             placeholder="Search recipes"
             aria-label="Search">
-          <button class="btn bg-secondary btn-outline-success" type="submit">
+          <button class="btn btn-secondary" type="submit">
             Search
           </button>
         </form>
@@ -89,49 +89,71 @@
 </header>
 
       <main>
-        <span>Hey, good lookin&#39;, whatcha cookin&#39;? Still testing.</span>
-        <br>
-        <section>
-          <h2>Most Recently Updated Recipes</h2>
-          
-          <article>
-            <h3><a href="./recipes/chocolate-cupcakes/">Chocolate cupcakes</a></h3>
-            <time>18 Feb, 2021</time>
-          </article>
-          
-          <article>
-            <h3><a href="./recipes/bulgar_wheat_with_pine_nuts_carrot_and_feta/">Bulgar Wheat with Pine Nuts, Carrot and Feta</a></h3>
-            <time>21 Jan, 2021</time>
-          </article>
-          
-          <article>
-            <h3><a href="./recipes/wikipedia_pina_colada/">Textbook (Wikipedia inspired) Piña Colada</a></h3>
-            <time>18 Jan, 2021</time>
-          </article>
-          
+        <h1 class="display-2 text-center mb-3">CompSoc CookBook</h1>
+        <h2 class="display-6 text-center mb-5">Hey, good lookin&#39;, whatcha got cookin&#39;?</h2>
+        <section class="mb-5 pb-3">
+          <p>
+            CompSoc Cookbook is a curated list of recipes by CompSoc Edinburgh members.
+          </p>
+          <p>
+            We'd love you to contribute some of your own favourite recipes! All of our data is on <a href="https://github.com/compsoc-edinburgh/cook-book">GitHub</a>, and the format is plain Markdown.
+          </p>
         </section>
-        <br>
-        See all recipes: <a href="recipes">click</a>.
-        <br>
-        <section>
-          <h2>Browse from various selections</h2>
-          <ul>
-          
+        <hr>
+        <section class="my-5">
+          <div class="d-block d-lg-flex justify-content-between">
+            <h2 class="mb-3">Most Recently Updated Recipes</h2>
+            <p><a href="recipes" class="btn btn-outline-primary">View all Recipes</a></p>
+          </div>
+          <ol class="recipe-listing row row-cols-2 row-cols-lg-4 g-3">
             
-              <li><a href="./difficulties/">Difficulties</a></li>
             
-          
+            <li class="recipe-listing-item col">
+              <a href="./recipes/chocolate-cupcakes/" role="article">
+                <div class="card h-100">
+                  <div class="card-body">
+                    <span class="meta">18 Feb, 2021</span>
+                    <h4 class="display-6 mt-lg-3">Chocolate cupcakes</h2>
+                  </div>
+                </div>
+              </a>
+            </li>
             
-              <li><a href="./meals/">Meals</a></li>
+            <li class="recipe-listing-item col">
+              <a href="./recipes/bulgar_wheat_with_pine_nuts_carrot_and_feta/" role="article">
+                <div class="card h-100">
+                  <div class="card-body">
+                    <span class="meta">21 Jan, 2021</span>
+                    <h4 class="display-6 mt-lg-3">Bulgar Wheat with Pine Nuts, Carrot and Feta</h2>
+                  </div>
+                </div>
+              </a>
+            </li>
             
-          
+            <li class="recipe-listing-item col d-none d-lg-block">
+              <a href="./recipes/wikipedia_pina_colada/" role="article">
+                <div class="card h-100">
+                  <div class="card-body">
+                    <span class="meta">18 Jan, 2021</span>
+                    <h4 class="display-6 mt-lg-3">Textbook (Wikipedia inspired) Piña Colada</h2>
+                  </div>
+                </div>
+              </a>
+            </li>
             
-              <li><a href="./tags/">Tags</a></li>
+            <li class="recipe-listing-item col d-none d-lg-block">
+              <a href="./recipes/stuffed-peppers/" role="article">
+                <div class="card h-100">
+                  <div class="card-body">
+                    <span class="meta">18 Jan, 2021</span>
+                    <h4 class="display-6 mt-lg-3">Stuffed peppers with mushrooms</h2>
+                  </div>
+                </div>
+              </a>
+            </li>
             
-          
-          </ul>
+          </ol>
         </section>
-        <br>
       </main>
       <footer>
   <hr>
@@ -146,5 +168,12 @@
 
     </div>
     
+<script type="text/javascript" src="./bootstrap/js/dist/dom/data.js"></script>
+<script type="text/javascript" src="./bootstrap/js/dist/dom/event-handler.js"></script>
+<script type="text/javascript" src="./bootstrap/js/dist/dom/manipulator.js"></script>
+<script type="text/javascript" src="./bootstrap/js/dist/dom/selector-engine.js"></script>
+<script type="text/javascript" src="./bootstrap/js/dist/base-component.js"></script>
+<script type="text/javascript" src="./bootstrap/js/dist/collapse.js"></script>
+
   </body>
 </html>
