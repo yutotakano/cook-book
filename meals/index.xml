@@ -2,35 +2,35 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Meals on CompSoc Cookbook</title>
-    <link>https://comp-soc.com/cookbook/meals/</link>
+    <link>https://compsoc-edinburgh.github.io/cook-book/meals/</link>
     <description>Recent content in Meals on CompSoc Cookbook</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 18 Feb 2021 17:30:55 +0000</lastBuildDate><atom:link href="https://comp-soc.com/cookbook/meals/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 18 Feb 2021 17:30:55 +0000</lastBuildDate><atom:link href="https://compsoc-edinburgh.github.io/cook-book/meals/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>desserts</title>
-      <link>https://comp-soc.com/cookbook/meals/desserts/</link>
+      <link>https://compsoc-edinburgh.github.io/cook-book/meals/desserts/</link>
       <pubDate>Thu, 18 Feb 2021 17:30:55 +0000</pubDate>
       
-      <guid>https://comp-soc.com/cookbook/meals/desserts/</guid>
+      <guid>https://compsoc-edinburgh.github.io/cook-book/meals/desserts/</guid>
       <description></description>
     </item>
     
     <item>
       <title>main_courses</title>
-      <link>https://comp-soc.com/cookbook/meals/main_courses/</link>
+      <link>https://compsoc-edinburgh.github.io/cook-book/meals/main_courses/</link>
       <pubDate>Thu, 21 Jan 2021 22:46:29 +0000</pubDate>
       
-      <guid>https://comp-soc.com/cookbook/meals/main_courses/</guid>
+      <guid>https://compsoc-edinburgh.github.io/cook-book/meals/main_courses/</guid>
       <description></description>
     </item>
     
     <item>
       <title>cocktails</title>
-      <link>https://comp-soc.com/cookbook/meals/cocktails/</link>
+      <link>https://compsoc-edinburgh.github.io/cook-book/meals/cocktails/</link>
       <pubDate>Mon, 18 Jan 2021 20:40:01 +0000</pubDate>
       
-      <guid>https://comp-soc.com/cookbook/meals/cocktails/</guid>
+      <guid>https://compsoc-edinburgh.github.io/cook-book/meals/cocktails/</guid>
       <description></description>
     </item>
     
