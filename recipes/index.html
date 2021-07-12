@@ -10,13 +10,17 @@
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Lato&family=Playfair+Display&display=swap" onload="this.onload=null;this.rel='stylesheet'">
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Lato&family=Playfair+Display:wght@400;500&display=swap" onload="this.onload=null;this.rel='stylesheet'">
 
 
 
-<link rel="stylesheet" href="../scss/main.min.be588b3d120141efcf2b8a68c20cb46f26857995dab56d5cd6df0d1837533392.css"  integrity="sha256-vliLPRIBQe/PK4powgy0byaFeZXatW1c1t8NGDdTM5I=">
+<link rel="stylesheet" integrity="sha256-s5vQ0rgsecbygZMKz2k/OXUzzMZGBEzoFtiiyOoMVCA=" href="../scss/main.min.b39bd0d2b82c79c6f281930acf693f397533ccc646044ce816d8a2c8ea0c5420.css">
 
-    <title>CompSoc Cookbook</title>
+    <title>Recipes | CompSoc Cookbook</title>
+    <meta property="og:title" content="Recipes" />
+    <meta property="og:description" content="Recipe search result" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://cookbook.betterinformatics.com" />
   </head>
   <body>
     <div class="container">
@@ -94,7 +98,7 @@
               
               <div class="accordion accordion-flush mt-5" id="searchFilters">
                 <div class="accordion-item">
-                  <h2 class="accordion-header" id="filterAllergensHeading">
+                  <div class="accordion-header" id="filterAllergensHeading">
                     <button
                       class="accordion-button collapsed"
                       type="button"
@@ -104,7 +108,7 @@
                       aria-controls="filterAllergensBody">
                       Excluded Allergens
                     </button>
-                  </h2>
+                  </div>
                   <div
                     id="filterAllergensBody"
                     class="accordion-collapse collapse"
@@ -297,7 +301,7 @@
                       
                     </div>
                   </div>
-                  <h2 class="accordion-header" id="filterDifficultiesHeading">
+                  <div class="accordion-header" id="filterDifficultiesHeading">
                     <button
                       class="accordion-button collapsed"
                       type="button"
@@ -307,7 +311,7 @@
                       aria-controls="filterDifficultiesBody">
                       Difficulties
                     </button>
-                  </h2>
+                  </div>
                   <div
                     id="filterDifficultiesBody"
                     class="accordion-collapse collapse"
@@ -357,7 +361,7 @@
                       
                     </div>
                   </div>
-                  <h2 class="accordion-header" id="filterMealsHeading">
+                  <div class="accordion-header" id="filterMealsHeading">
                     <button
                       class="accordion-button collapsed"
                       type="button"
@@ -367,7 +371,7 @@
                       aria-controls="filterMealsBody">
                       Meals
                     </button>
-                  </h2>
+                  </div>
                   <div
                     id="filterMealsBody"
                     class="accordion-collapse collapse"
@@ -417,7 +421,7 @@
                       
                     </div>
                   </div>
-                  <h2 class="accordion-header" id="filterTagsHeading">
+                  <div class="accordion-header" id="filterTagsHeading">
                     <button
                       class="accordion-button collapsed"
                       type="button"
@@ -427,7 +431,7 @@
                       aria-controls="filterTagsBody">
                       Tags
                     </button>
-                  </h2>
+                  </div>
                   <div
                     id="filterTagsBody"
                     class="accordion-collapse collapse"
@@ -441,11 +445,11 @@
                           class="form-check-input filter-checkbox"
                           type="checkbox"
                           value=""
-                          id="filtertagschicken-harissa-traybake"
+                          id="filtertagschicken"
                           data-filter-key="tags"
-                          data-filter-value="chicken-harissa-traybake">
-                        <label class="form-check-label" for="filtertagschicken-harissa-traybake">
-                          Chicken-Harissa-Traybake
+                          data-filter-value="chicken">
+                        <label class="form-check-label" for="filtertagschicken">
+                          Chicken
                         </label>
                       </div>
                       
@@ -454,11 +458,50 @@
                           class="form-check-input filter-checkbox"
                           type="checkbox"
                           value=""
-                          id="filtertagssausage-traybake-sweet-potato"
+                          id="filtertagsharissa"
                           data-filter-key="tags"
-                          data-filter-value="sausage-traybake-sweet-potato">
-                        <label class="form-check-label" for="filtertagssausage-traybake-sweet-potato">
-                          Sausage-Traybake-Sweet-Potato
+                          data-filter-value="harissa">
+                        <label class="form-check-label" for="filtertagsharissa">
+                          Harissa
+                        </label>
+                      </div>
+                      
+                      <div class="form-check">
+                        <input
+                          class="form-check-input filter-checkbox"
+                          type="checkbox"
+                          value=""
+                          id="filtertagssausage"
+                          data-filter-key="tags"
+                          data-filter-value="sausage">
+                        <label class="form-check-label" for="filtertagssausage">
+                          Sausage
+                        </label>
+                      </div>
+                      
+                      <div class="form-check">
+                        <input
+                          class="form-check-input filter-checkbox"
+                          type="checkbox"
+                          value=""
+                          id="filtertagssweet-potato"
+                          data-filter-key="tags"
+                          data-filter-value="sweet-potato">
+                        <label class="form-check-label" for="filtertagssweet-potato">
+                          Sweet-Potato
+                        </label>
+                      </div>
+                      
+                      <div class="form-check">
+                        <input
+                          class="form-check-input filter-checkbox"
+                          type="checkbox"
+                          value=""
+                          id="filtertagstraybake"
+                          data-filter-key="tags"
+                          data-filter-value="traybake">
+                        <label class="form-check-label" for="filtertagstraybake">
+                          Traybake
                         </label>
                       </div>
                       
@@ -503,12 +546,19 @@
 
     </div>
     
-<script type="text/javascript" src="../bootstrap/js/dist/dom/data.min.js"></script>
-<script type="text/javascript" src="../bootstrap/js/dist/dom/event-handler.min.js"></script>
-<script type="text/javascript" src="../bootstrap/js/dist/dom/manipulator.min.js"></script>
-<script type="text/javascript" src="../bootstrap/js/dist/dom/selector-engine.min.js"></script>
-<script type="text/javascript" src="../bootstrap/js/dist/base-component.min.js"></script>
-<script type="text/javascript" src="../bootstrap/js/dist/collapse.min.js"></script>
+
+<script type="text/javascript" integrity="" src="../bootstrap/js/dist/dom/data.min.js"></script>
+
+<script type="text/javascript" integrity="" src="../bootstrap/js/dist/dom/event-handler.min.js"></script>
+
+<script type="text/javascript" integrity="" src="../bootstrap/js/dist/dom/manipulator.min.js"></script>
+
+<script type="text/javascript" integrity="" src="../bootstrap/js/dist/dom/selector-engine.min.js"></script>
+
+<script type="text/javascript" integrity="" src="../bootstrap/js/dist/base-component.min.js"></script>
+
+<script type="text/javascript" integrity="" src="../bootstrap/js/dist/collapse.min.js"></script>
+
 
     
     <script async src="../js/search.min.b9f4a05007268669ae6bbc77e52436625e259333906a344657288d3db7f5f58b.js" integrity="sha256-ufSgUAcmhmmua7x35SQ2Yl4lkzOQajRGVyiNPbf19Ys="></script>
